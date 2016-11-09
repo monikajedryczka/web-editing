@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Webediting 2016</title>
+<meta name="description" content="Strona powstała na zajęciach Webediting w Będzinie" />
+<meta name="keywords" content="webediting, html, css, javascript, jQuery" />
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+
+
+#form {width:600px; margin: 50px auto 75px auto; }
+input {padding: 5px; width: 95%; margin-right:2%}
+input#tresc {
+    height: 150px;
+}
+
+input.button_grey {text-decoration: none; 
+	width: 150px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid #52bad5;
+	color: #52bad5;
+	transition: all 0.3s linear;
+	display: block;
+	background-color: #fff}
+	
+input.button_grey:hover	{
+	background-color: #52bad5;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<div id="menu">
+<img src="http://www.webediting.c0.pl/images/logo.jpg" alt="" height="60" id="logo"/>
+<nav>
+ <ul> 
+ <li> <a href="index.html">STRONA GŁÓWNA</a></li>
+ 
+<li><a href="oferta.html">OFERTA</a>
+	<ul>
+    	<li><a href="strony.html">STRONY INTERNETOWE</a></li>
+   		<li><a href="sklepy.html">SKLEPY INTERNETOWE</a></li>
+    </ul>
+    </li>
+<li><a href="ofirmie.html">O FIRMIE</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+<li><a href="kontakt.html">KONTAKT</a></li>
+</ul>
+</nav>
+</div>
+
+<div id="header">
+<h1>Zajmujemy się projektowaniem stron internetowych!</h1>
+</div>
+
+<div id="content"> 
+	<div id="naglowek">
+    <h2>Kontakt</h2>
+    <p>Aby skontaktować się z nami, prosimy wypełnić poniższy formularz.</p>
+    </div>
+    </div>
+    <div id="form">
+    <form action="mailto:webediting@webediting.c0.pl" method="post">
+   <fieldset>
+  <legend>Formularz kontaktowy:</legend>
+    <label for="name">Imię:</label><br>
+       <input type="text" name="name" id="name" /><br>
+    <br />
+     <label for="lastname">Nazwisko:</label><br>
+    <input type="text" name="lastname" id="lastname" /><br>
+    <br />
+    <label for="mail">E-mail:</label><br>
+    <input type="text" name="mail" id="mail" /><br>
+    <br />
+    <label for="tresc">Treść:</label><br>
+    <input type="text" name="tresc" id="tresc" size="40" /><br>
+    <br />
+    <input class="button_grey" type="submit" value="Wyślij">
+  </fieldset>
+ 
+</form>
+
+    </div>
+    
+    
+   
+
+  
+	
+
+
+<div id="footer">
+
+<section class="footer_banner" id="contact">
+    <h2>AUTORZY STRONY</h2>
+    <p>Magdalena Gorzant, Piotr Michna, Adrian Żabicki, Wojciech Jarzębski, Paulina Dębińska, Martyna Stąpor, Natalia Wojdała, <br />Mateusz Ból, Kacper Bąk, Daria Jamrożek, Anna Hrut, Kamil Ścisłowski, Paulina Szewczyk</p>
+    
+  </section>
+  
+  <!-- Prawa autorskie-->
+  <div class="copyright">&copy; LISTOPAD 2016 - <strong>Webediting Będzin</strong></div>
+</div>
+
+
+
+</body>
+</html>

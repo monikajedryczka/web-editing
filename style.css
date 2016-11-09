@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+
+body {
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: auto;
+	padding-bottom: 0;
+	padding-left: auto;
+	font-family: 'Raleway', sans-serif;
+}
+	
+	
+#menu {
+	margin-top: 25px;
+	background-color: #fff;
+	width:1000px;
+	padding-bottom:5px;
+	height: 55px;
+		}
+
+
+
+#header {
+	height: 550px;
+	width: 1000px;
+	display:table;
+	padding:0;
+	margin: 0;
+	background-image:url("http://webediting.c0.pl/images/glowny.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: none;
+	clear: both;
+	
+}
+#header h1 {
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 60px;
+	color: #000;
+	
+}
+#content #textbox .column {
+	width: 400px;
+	float: left;
+	padding: 25px;
+	margin: 0 23px 50px 23px;
+	border: solid 1px #C5C0C1;
+	
+	
+}
+
+
+
+#textbox .column h3 {
+	text-align: center;
+}
+#textbox .column p {
+	text-align: justify;
+}
+
+
+
+
+#footer {float: none; clear: both;
+width: 1000px; 
+background-color: #ABA7A7;
+text-align: center;
+height: 250px;
+display: inline-block;
+padding-bottom: 35px;
+
+}
+
+
+.button a:hover {
+	background-color: #fff;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+
+.button a {text-decoration: none; 
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid #fff;
+	color: #ffffff;
+	transition: all 0.3s linear;
+	display:inline-block;
+	}
+
+
+.button_grey a:hover {
+	background-color: #52bad5;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button_grey a {text-decoration: none; 
+	width: 150px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 3px solid #52bad5;
+	color: #52bad5;
+	transition: all 0.3s linear;
+	display: block;}
+
+
+
+
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	
+}
+
+
+
+
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.footer_column h2 {
+	color: #B3B3B3;
+	text-align: center;
+}
+.footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	
+}
+
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.footer_column {
+	width: 100%;
+	margin-top: 0px;}
+
+#menu img {float: left; clear: none}
+
+
+
+/* menu */
+
+
+ul {
+     list-style: none;
+     float: left;
+	
+}
+ 
+ul > li {
+     margin: 0;
+     padding: 0;
+     float: left; 
+     position: relative;
+     height:20px;
+}
+ 
+ul > li > a {
+     padding: 15px; 
+     color: #52bad5;
+     text-decoration: none;
+}
+ul > li > a:hover {
+	padding: 15px;
+     color: #fff;
+     text-decoration: none;
+	 background-color: #36738F;
+	 
+} 
+ 
+ul > li > a:hover, 
+ul > li:hover > a {
+     color: #52bad5;
+     text-decoration: none;
+}
+ 
+ul > li ul {
+     padding: 0;
+     position: absolute; 
+     display: none; 
+     left: 0px; 
+     top: 30px; 
+     width: 200px; 
+     text-align: left;
+     background-color: #52bad5;
+     border: 1px solid #ccc;
+}
+ 
+ul li:hover > ul {
+     display: block;
+}
+ 
+ul > li ul ul {
+     left: 200px; 
+     top: -1px;
+}
+ 
+ul > li ul li {margin: 0;
+padding:0; position: relative; float: none; height: auto;}
+
+ul > li ul li a {padding: 10px 20px; color: #fff; text-decoration: none; display: block;}
+
+ul > li ul li a:hover {padding: 10px 20px;}
+
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+     text-decoration: none;
+     color: #fff;
+     background-color: #36738F;
+}
